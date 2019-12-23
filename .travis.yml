@@ -6,7 +6,6 @@ script:
 - yarn build
 - yarn test
 deploy:
-  skip_cleanup: true
   provider: npm
   email: rpbiwer@gmail.com
   on:

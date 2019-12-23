@@ -11,6 +11,10 @@
     "postinstall": "[ ! -f package-links.json ] || ppl link-file",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
+  "files": [
+    "/src",
+    "/bsconfig.json"
+  ],
   "keywords": [
     "bucklescript",
     "reason",
