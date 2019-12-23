@@ -1,0 +1,26 @@
+{
+    "name": "@ryb73/bs-react-contextmenu",
+    "bs-dependencies": [
+        "reason-react",
+    ],
+    "bs-dev-dependencies": [
+        "@ryb73/bs-storybook",
+        "bs-css",
+    ],
+    "sources": [
+        {
+            "dir": "src",
+            "public": [ "ReactContextMenu" ],
+        },
+        {
+            "dir": "stories",
+            "type": "dev"
+        }
+    ],
+    "refmt": 3,
+    "warnings": {
+        "number": "+A"
+    },
+    "reason" : { "react-jsx" : 3 },
+    "bsc-flags": [ "-bs-super-errors" ],
+}
