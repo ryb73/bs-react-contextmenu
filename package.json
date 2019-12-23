@@ -1,5 +1,8 @@
 {
   "name": "@ryb73/bs-react-contextmenu",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "description": "BuckleScript bindings for https://www.npmjs.com/package/react-contextmenu",
   "main": "index.js",
